@@ -1,0 +1,43 @@
+.register-login{
+    width: 100px;
+    height: 30px;
+    left: 1159px;
+    top: 27px;
+
+    background: #433434;
+    border-radius: 5px;
+    color: white;
+    border: none !important;
+    font-weight: bold;
+}
+
+.color{
+    background-color: #FFC700;
+}
+
+.bg-brown{
+    background: #433434 !important;
+}
+
+.bold{
+    font-weight: bold !important;
+}
+
+.modal-title{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #FFC700;
+}
+
+.bg-form{
+    background: #D2D2D2 !important;
+}
+
+.text.form{
+    color: #B1B1B1;
+    ;
+}
