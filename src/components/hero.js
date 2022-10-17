@@ -4,29 +4,35 @@ import Pizza from "../assets/pizzaimage.png";
 
 const Hero = () => {
   return (
-    <div className="hero">
-      <div className="d-md-flex justify-content-center w-75 align-items-center">
-        <div className="w-50">
-          <div>
-            <p className="title">Are You Hungry ?</p>
-            <p className="title">Express Home Delivery</p>
-          </div>
+    <div className="hero p-5 row d-flex align-items-center">
+      <div className="col-10 offset-1">
+        <div className="row d-flex align-items-center">
+          <div className="col-lg-7 order-lg-1 order-2">
+            <div className="">
+              <p className="title">Are You Hungry ?</p>
+              <p className="title">Express Home Delivery</p>
+            </div>
 
-          <div className="d-flex justify-content-between">
-            <div className="w-25 me-3">
-              <hr className="line" />
-            </div>
-            <div className="w-75">
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s.
-              </p>
+            <div className="row">
+              <div className="col-lg-5">
+                <div className="me-3">
+                  <hr className="line w-100" />
+                </div>
+              </div>
+              <div className="col-lg-7">
+                <div>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="w-50 d-flex justify-content-end">
-          <img className="w-100" src={Pizza} alt="" />
+          <div className="col-lg-5 order-lg-2 order-1">
+            <img width="100%" src={Pizza} alt="" />
+          </div>
         </div>
       </div>
     </div>

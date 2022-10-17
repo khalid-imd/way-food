@@ -1,59 +1,51 @@
-.button{
-    background: #433434 !important;
-    border: none;
-    color: white;
+.button {
+  background: #433434 !important;
+  border: none;
+  color: white;
 }
 
-.bottom-border{
-    border-bottom: 1px black solid;
+.bottom-border {
+  border-bottom: 1px black solid;
 }
 
-.title{
-    font-family: 'Abhaya Libre ExtraBold';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 42px;
+.title {
+  font-family: "Abhaya Libre ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 42px;
 
-    color: #000000;
+  color: #000000;
 }
 
-.sub{
-    font-family: 'Avenir';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    /* identical to box height */
+.sub {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
 
-
-    color: #613D2B;
+  color: #613d2b;
 }
 
-.menu-name{
-    font-family: 'Abhaya Libre ExtraBold';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-
-    color: #000000;
+.menu-name {
+  font-family: "Abhaya Libre ExtraBold";
+  font-style: normal;
+  /* identical to box height */
+  color: #000000;
 }
 
-.price{
-    font-family: 'Avenir';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
+.price {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
 
-    color: #FF0000;
+  color: #ff0000;
 }
 
-.top-border{
-    border-top: #000000 solid solid;
+.top-border {
+  border-top: #000000 solid solid;
 }

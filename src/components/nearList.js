@@ -11,10 +11,10 @@ const NearList = () => {
       <div className="d-flex justify-content-start">
         <h2 className="title-near">Restaurant Near You</h2>
       </div>
-      <div className="d-flex gap-5 justify-content-between">
+      <div className="d-md-flex mt-4 mb-3 flex-wrap gap-1 justify-content-between">
         {Near.map((item) => {
           return (
-            <Link to="/menu">
+            <Link className="link" to="/menu">
               <Card style={{ width: "12rem" }}>
                 <Card.Img src={item.image} />
                 <Card.Body>

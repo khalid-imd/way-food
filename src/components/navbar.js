@@ -31,8 +31,6 @@ const Navigation = () => {
     email: "",
   });
 
-  console.log(form);
-
   const handleOnChange = (e) => {
     setForm({
       ...form,
@@ -67,11 +65,9 @@ const Navigation = () => {
           <Nav className="me-auto"></Nav>
           <Nav>
             {isPartner ? (
-              <Navbar collapseOnSelect expand="lg" className="color">
+              <Navbar expand="lg" className="color">
                 <Container>
-                  <Navbar.Brand href="#home"></Navbar.Brand>
-                  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                  <Navbar.Collapse id="responsive-navbar-nav">
+                  <Navbar id="responsive-navbar-nav">
                     <Nav className="me-auto"></Nav>
                     <Nav>
                       <Nav.Link></Nav.Link>
@@ -126,14 +122,13 @@ const Navigation = () => {
                         </Dropdown>
                       </Nav.Link>
                     </Nav>
-                  </Navbar.Collapse>
+                  </Navbar>
                 </Container>
               </Navbar>
             ) : isUser ? (
               <Navbar collapseOnSelect expand="lg" className="color">
                 <Container>
-                  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                  <Navbar.Collapse id="responsive-navbar-nav">
+                  <Navbar>
                     <Nav className="me-auto"></Nav>
                     <Nav>
                       <Nav.Link>
@@ -190,7 +185,7 @@ const Navigation = () => {
                         </Dropdown>
                       </Nav.Link>
                     </Nav>
-                  </Navbar.Collapse>
+                  </Navbar>
                 </Container>
               </Navbar>
             ) : (
